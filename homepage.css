@@ -120,13 +120,28 @@ button:hover {
 
 .services {
     width: 100%;
-    padding: 78px 0px;
+    padding: 120px 0px;
     background-color: #fff;
+}
+
+.title{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+
+.main1 h1{
+    height: 1vh;
+    width: 620px;
+    margin-left: 650px;
+    margin-top: 60px;
+    font-size: 60px;
 }
 
 .services img{
     height: auto;
     width: 620px;
+    margin-left: -80px;
 }
 
 .services-text {
@@ -136,8 +151,13 @@ button:hover {
 }
 
 .services-text h1{
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     margin-top: -50px;
 }
+
 
 .services-text a button {
     width: 200px;
