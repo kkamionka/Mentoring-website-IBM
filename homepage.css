@@ -117,3 +117,55 @@ button:hover span{
 button:hover {
     border: none;
 }
+
+.services {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #fff;
+}
+
+.services img{
+    height: auto;
+    width: 620px;
+}
+
+.services-text {
+    width: 550px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.services-text h1{
+    margin-top: -50px;
+}
+
+.services-text a button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.services-text a button:hover {
+    background-color: #009688;
+}
+
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
