@@ -55,3 +55,10 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
+
+.navbar ul img{
+    width: 50px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom:-15px;
+}
