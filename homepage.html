@@ -6,7 +6,8 @@
     <title>welcome | AGK Mentors</title>
     <link rel="stylesheet" href="homepage.css">
 
-    <link rel="stylesheet" href="">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -64,9 +65,9 @@
     </section>
 
     <section class="container">
-        <div class="testimonial">
-            <div class="testi-content">
-                <div class="slide">
+        <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
+                <div class="slide swiper-slide">
                     <img src="images/man-8578832_640.jpg" alt="" class="image">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac elit hendrerit, condimentum risus sed, 
                         finibus ipsum. Nulla facilisi. Sed at malesuada nunc. Integer id neque at ligula consequat dapibus.</p>
@@ -79,8 +80,14 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
+
+    <!-- JS Swiper-->
+     <script src="js/swiper-bundle.min.js"></script>
 
     <!-- JavaScript -->
      <script src="homepage.js"></script>
