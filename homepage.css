@@ -209,13 +209,13 @@ button:hover {
     text-transform: capitalize;
     color: #000;
     line-height: 1.2;
-    background: linear-gradient(to right, hsl(186, 98%, 37%), hsl(170, 100%, 40%));
+    background: #e3f2fd;
 }
 
 /* testimonials */
 .testimonials {
     font-size: 16px;
-    background: linear-gradient(to right, hsl(186, 98%, 37%), hsl(170, 100%, 40%));
+    background: #e3f2fd;
     padding: 100px 0;
 }
 
@@ -287,27 +287,32 @@ button:hover {
 }
 
 /* Swiper Next and Previous Arrows */
+/* Position the navigation buttons inside the swiper container */
 .swiper-button-next, .swiper-button-prev {
-    color: #fff;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 20;
-    top: 50%;
-    transform: translateY(-50%);
+    color: #fff; /* Set button color */
+    font-size: 30px; /* Adjust button size */
+    z-index: 5; /* Make sure the buttons are on top of the slides */
 }
 
 .swiper-button-next {
-    right: 10px;
+    right: 50px; /* Position the 'next' button on the right */
 }
 
 .swiper-button-prev {
-    left: 10px;
+    left: 50px; /* Position the 'prev' button on the left */
 }
 
-/* On hover, change the background color of the arrows */
-.swiper-button-next:hover, .swiper-button-prev:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+/* Make sure the swiper buttons are positioned properly inside the slider */
+.swiper {
+    position: relative;
 }
+
+.testimonials-content {
+    position: relative; /* Ensures buttons are within the context of the swiper container */
+}
+
+/* Optional: Styling for swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color: #009688;
+}
+
