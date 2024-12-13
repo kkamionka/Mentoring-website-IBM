@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="homepage.css">
 
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 </head>
 <body> 
     <div class="banner">
@@ -63,14 +68,14 @@
                 <h2 class="title">What our client says</h2>
             </div>
             <div class="testimonials-content">
-                <div class="testimonials-slider js-testimonials-slider">
-                    <div>
-                        <div class="testimonials-items">
+                <div class="swiper testimonials-slider js-testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonials-items">
                             <div class="info">
                                 <img src="images/man-8578832_640.jpg" alt="img">
                                 <div class="text-box">
                                     <h3 class="name">Arjun Patel</h3>
-                                    <span class="job">Web Developer</span>
+                                    <h5 class="job">Web Developer</h5>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, architecto nulla incidunt reprehenderit expedita quibusdam similique perferendis repudiandae. Non, deserunt?</p>
@@ -83,12 +88,12 @@
                             </div>
                         </div>
 
-                        <div class="testimonials-items">
+                        <div class="swiper-slide testimonials-items">
                             <div class="info">
                                 <img src="images/image2.jpg" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Arjun Patel</h3>
-                                    <span class="job">Web Developer</span>
+                                    <h3 class="name">James Anderson</h3>
+                                    <h5 class="job">Web Developer</h5>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, architecto nulla incidunt reprehenderit expedita quibusdam similique perferendis repudiandae. Non, deserunt?</p>
@@ -101,12 +106,12 @@
                             </div>
                         </div>
 
-                        <div class="testimonials-items">
+                        <div class="swiper-slide testimonials-items">
                             <div class="info">
                                 <img src="images/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.avif" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Arjun Patel</h3>
-                                    <span class="job">Web Developer</span>
+                                    <h3 class="name">Emily Thompson</h3>
+                                    <h5 class="job">Web Developer</h5>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, architecto nulla incidunt reprehenderit expedita quibusdam similique perferendis repudiandae. Non, deserunt?</p>
@@ -119,12 +124,12 @@
                             </div>
                         </div>
 
-                        <div class="testimonials-items">
+                        <div class="swiper-slide testimonials-items">
                             <div class="info">
                                 <img src="images/images.jpg" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Arjun Patel</h3>
-                                    <span class="job">Web Developer</span>
+                                    <h3 class="name">Michael Harrison</h3>
+                                    <h5 class="job">Web Developer</h5>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, architecto nulla incidunt reprehenderit expedita quibusdam similique perferendis repudiandae. Non, deserunt?</p>
@@ -137,12 +142,12 @@
                             </div>
                         </div>
 
-                        <div class="testimonials-items">
+                        <div class="swiper-slide testimonials-items">
                             <div class="info">
                                 <img src="images/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.avif" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Arjun Patel</h3>
-                                    <span class="job">Web Developer</span>
+                                    <h3 class="name">Sophia Bennett</h3>
+                                    <h5 class="job">Web Developer</h5>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, architecto nulla incidunt reprehenderit expedita quibusdam similique perferendis repudiandae. Non, deserunt?</p>
@@ -156,12 +161,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination js-testimonials-pagination"></div>
             </div>
         </div>
     </section>
 
     <!-- JavaScript -->
      <script src="homepage.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <script>
+        const swiper = new Swiper('.js-testimonials-slider', {
+            grabCursor: true,
+            spaceBetween: 30,
+            pagination:{
+                el: '.js-testimonials-pagination',
+                clickable: true
+            },
+            breakpoints: {
+                767:{
+                    slidesPerView: 2
+                }
+            }
+        });
+     </script>
 
 </body>
 </html>
