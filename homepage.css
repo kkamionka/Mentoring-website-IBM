@@ -264,9 +264,50 @@ button:hover {
     color: hsl(36, 88%, 66%);
 }
 
+/* Swiper Pagination */
 .testimonials .swiper-pagination {
-    position: relative;
-    margin-top: 40px;
-    bottom: auto;
-    margin-left: 563px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+/* Custom Pagination Bullet */
+.testimonials .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.testimonials .swiper-pagination-bullet:hover {
+    opacity: 0.7;
+}
+
+/* Swiper Next and Previous Arrows */
+.swiper-button-next, .swiper-button-prev {
+    color: #fff;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+/* On hover, change the background color of the arrows */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
