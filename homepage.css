@@ -316,3 +316,51 @@ button:hover {
     background-color: #009688;
 }
 
+.parallax {
+    z-index: 10;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(images/The-importance-of-training-hero@1x.webp);
+    padding: 20px;
+}
+
+.container_text h2{
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.container_text p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 290px;
+}
+
+.container_text a button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.container_text a button:hover {
+    background-color: #009688;
+}
