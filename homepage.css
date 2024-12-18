@@ -318,7 +318,7 @@ button:hover {
 
 .parallax {
     z-index: 10;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
