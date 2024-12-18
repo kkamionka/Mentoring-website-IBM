@@ -82,13 +82,13 @@
     font-weight: 100;
     line-height: 25px;
 }
-button {
+/*button {
     background: transparent;
     color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-}
+}*/
 
 span {
     background: #009688;
