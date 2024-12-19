@@ -8,7 +8,7 @@
 /* Banner Section */
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/image3.jpg);
     background-size: cover;
     background-position: center;
@@ -73,17 +73,17 @@
 .intro {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
 
 .intro h1 {
     font-size: 36px;
-    color: #333;
+    color: white;
 }
 
 .intro p {
     font-size: 18px;
-    color: #666;
+    color: white;
 }
 
 /* Services Section */
@@ -95,7 +95,7 @@
 .services-overview h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
+    color: white;
 }
 
 .services-section {
@@ -106,7 +106,7 @@
 }
 
 .service-card {
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -117,12 +117,12 @@
 
 .service-card h3 {
     font-size: 24px;
-    color: #333;
+    color: white;
 }
 
 .service-card p {
     font-size: 16px;
-    color: #666;
+    color: white;
 }
 
 .service-card ul {
@@ -132,12 +132,13 @@
 
 .service-card ul li {
     font-size: 14px;
-    color: #444;
+    color: lightblue;
 }
 
 /* Call to Action */
 .cta {
     text-align: center;
+    height: 10vh;
     padding: 40px 20px;
     background-color: #007bff;
     color: white;
@@ -150,6 +151,7 @@
     border-radius: 5px;
     text-decoration: none;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .cta-button:hover {
