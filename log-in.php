@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in | AGK Mentors</title>
-    <link rel="stylesheet" href="sign-up.css">
+    <link rel="stylesheet" href="sign-in.css">
 
 </head>
 <body>
@@ -31,12 +31,12 @@
                 <label>Password</label>
                 <input type="password" placeholder="">
                 <!-- ADD DASHBOARD HERE -->
-                <a href="">
-                    <input  type="button" value="Submit">
+                <a href="mentors.html">
+                    <input type="button" value="Submit">
                 </a>
             </form>
         </div>
-        <p>Don't have an account? <a href="#">Sign Up Here/a></p>
+        <p class="para-2">Don't have an account? <a href="sign-in.html">Sign Up Here</a></p>
     </div>
 
 
