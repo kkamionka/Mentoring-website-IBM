@@ -68,7 +68,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.signu-box{
+.signup-box{
     width: 360px;
     height: 620px;
     margin: auto;
@@ -101,4 +101,24 @@ form label{
 form input{
     width: 100%;
     padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
 }
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-to
+}
+
