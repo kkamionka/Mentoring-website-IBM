@@ -63,6 +63,11 @@
     margin-bottom:-15px;
 }
 
+body{
+    background-color: #344a72;
+    font-family: 'Roboto', sans-serif;
+}
+
 .signu-box{
     width: 360px;
     height: 620px;
