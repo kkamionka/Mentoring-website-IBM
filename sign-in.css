@@ -119,6 +119,17 @@ input[type="button"]{
 
 p{
     text-align: center;
-    padding-to
+    padding: 20px;
+    font-size: 15px;
 }
 
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a{
+    color: #49c1a2;
+}
