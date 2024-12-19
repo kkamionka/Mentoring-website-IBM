@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentors |</title>
+  <link rel="stylesheet" href="mentors.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/logo-transparent-svg.svg" class="logo">
+        </div>
+    </div>
+
+  <header>
+    <h1>Mentorship Directory</h1>
+  </header>
+
+  <div class="filter-section">
+    <label for="availability">Availability: </label>
+    <select id="availability">
+      <option value="all">All</option>
+      <option value="available">Available</option>
+      <option value="notAvailable">Not Available</option>
+    </select>
+
+    <label for="priceRange">Price Range: </label>
+    <select id="priceRange">
+      <option value="all">All</option>
+      <option value="low">Low</option>
+      <option value="high">High</option>
+    </select>
+
+    <label for="subject">Subject: </label>
+    <select id="subject">
+      <option value="all">All</option>
+      <option value="computerScience">Computer Science</option>
+      <option value="softwareEngineering">Software Engineering</option>
+      <option value="aiMachineLearning">AI & Machine Learning</option>
+      <option value="dataScience">Data Science</option>
+      <option value="consulting">Consulting</option>
+    </select>
+  </div>
+
+  <section id="mentor-list" class="mentor-list">
+    <!-- Mentors will be dynamically injected here -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
